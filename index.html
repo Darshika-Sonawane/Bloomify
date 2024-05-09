@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloomify</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- Header Section start -->
+    <header>
+        <div class="header-1">
+            <div class="share">
+                <span>Follow us :</span>
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <div class="call">
+                <span>Call us :</span>
+                <a href="#">+123-456-789</a>
+            </div>
+        </div>
+        
+        <div class="header-2">
+            <a href="#" class="logo"><i class="ri-plant-fill"></i> Bloomify </a>
+            <form action="" class="search-bar-container">
+                <input type="Search" id="search-bar" placeholder="Search here....">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        </div>
+
+        <div class="header-3">
+
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <!-- <a href="#category">Category</a> -->
+                <div class="dropdown">
+                    <button class="dropbtn" >Category &blacktriangledown;</button>
+                    <div class="dropdown-content">
+                    <a href="flower.html">Flower Bouquets</a>
+                    <a href="plant.html">plants</a>
+                    <a href="fpots.html">Flowerpots</a>
+                    <a href="eferti.html">Fertilizers</a>
+                    </div>
+                  </div>
+                <a href="#product">Product</a>
+                <a href="#deal">Deal</a>
+                <a href="#contact">Contact</a>
+                <a href="weather.html">Weather</a>
+            </nav>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-user-circle"></a>
+            </div>
+        </div>
+    </header>
+    <!-- Header section end -->
+    <!-- Home section start -->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">                
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/slider3.jpg);">
+                        <div class="content">
+                            <span>Upto 45% off</span>
+                            <h3>Make your life colorful with flowers :)</h3>
+                            <a href="flower.html" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/slider1.jpg);">
+                        <div class="content">
+                            <span>Upto 75% off</span>
+                            <h3>Plant big sell special offer</h3>
+                            <a href="plant.html" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/slider2.jpg);">
+                        <div class="content">
+                            <span>Upto 65% off</span>
+                            <h3>Decorate Your Home Right Now!!</h3>
+                            <a href="fpots.html" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Home section end -->
+    <!-- Banner section start -->
+    <section class="banner-container">
+        <div class="banner">
+            <img src="img/banner1.jpg" alt="banner1">
+            <div class="content">
+                <span>New arrivals</span>
+                <h3>Home/office plants</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="img/banner2.jpg" alt="banner2">
+            <div class="content">
+                <span>New arrivals</span>
+                <h3>Beautiful Flowers</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="img/banner3.jpg" alt="banner3">
+            <div class="content">
+                <span>New arrivals</span>
+                <h3>Creative Flowerpots</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section end -->
+    <!-- Product section start -->
+    <section class="product" id="product">
+    <h1 class="heading">&diamond; new products</h1>
+    <div class="box-container">
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="img/flower5.jpg" alt="product">
+            <h3>Latest Flower Bouquets</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="quantity">
+                <span>quantity: </span>
+                <input type="number" min="1" max="100" value="1">
+            </div>
+            <div class="price">Rs. 150 <span>Rs. 200</span></div>
+            <a href="#product" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="img/product3.jpg" alt="product">
+            <h3>latest plants</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="quantity">
+                <span>quantity: </span>
+                <input type="number" min="1" max="100" value="1">
+            </div>
+            <div class="price">Rs. 216 <span>Rs. 240</span></div>
+            <a href="#product" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="img/fp8.jpg" alt="product">
+            <h3>Latest Flowerpots</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="quantity">
+                <span>quantity: </span>
+                <input type="number" min="1" max="100" value="1">
+            </div>
+            <div class="price">Rs. 225 <span>Rs. 250</span></div>
+            <a href="#product" class="btn">add to cart</a>
+        </div>
+    </div>
+    </section>
+    <!-- Product section end -->
+    <!-- Icon section start -->
+    <section class="icons-container">
+        <div class="icons">
+            <img src="img/icon1.jpg" alt="icon">
+            <div class="content">
+                <h3>free shipping</h3>
+                <p>free shipping on order</p>
+            </div>
+        </div>
+        <div class="icons">
+            <img src="img/icon2.webp" alt="icon">
+            <div class="content">
+                <h3>100% Money back</h3>
+                <p>you've 30 days to return</p>
+            </div>
+        </div>
+        <div class="icons">
+            <img src="img/icon3.jpg" alt="icon">
+            <div class="content">
+                <h3>payment secure</h3>
+                <p>100% secure payment</p>
+            </div>
+        </div>
+        <div class="icons">
+            <img src="img/icon4.png" alt="icon">
+            <div class="content">
+                <h3>support 24/7</h3>
+                <p>contact us anytime</p>
+            </div>
+        </div>
+    </section>
+    <!-- Icon section end -->
+    <!-- Deal section start -->
+    <section class="deal" id="deal">
+        <h1 class="heading">&diamond; deal of the day</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">don't miss the Deal</h3>
+                <p style="font-size: 1.9rem;">Explore our  exciting deals and get good discount on your favourite desired product.
+                    Hurry up!
+                    Only few days are left!</p>
+                <div class="count-down">
+                    <div class="box">
+                        <h3 id="day">00</h3>
+                        <span>day</span>
+                    </div>
+                    <div class="box">
+                        <h3 id="hour">00</h3>
+                        <span>hour</span>
+                    </div>
+                    <div class="box">
+                        <h3 id="minute">00</h3>
+                        <span>minute</span>
+                    </div>
+                    <div class="box">
+                        <h3 id="second">00</h3>
+                        <span>second</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">check out deal</a>
+            </div>
+            <div class="image">
+                <img src="img/deal-img.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Deal section end -->
+    <!-- Contact section start -->
+    <section class="contact" id="contact">
+        <h1 class="heading">&diamond; get in touch</h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.6974555924608!2d73.02747381485072!3d19.03304878711248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3eaaa53c4e3%3A0x9459161291e7ded5!2sTerna%20Engineering%20College!5e0!3m2!1sen!2sin!4v1676142094948!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            <form action="">
+                <div class="inputbox">
+                    <input type="text" required>
+                    <label >name</label>
+                </div>
+                <div class="inputbox">
+                    <input type="email" required>
+                    <label >email</label>
+                </div>
+                <div class="inputbox">
+                    <input type="number" required>
+                    <label >number</label>
+                </div>
+                <div class="inputbox">
+                    <textarea required name="" id="" cols="30" rows="10"></textarea>
+                    <label >message</label>
+                </div>
+                <input type="submit" value="send messege" class="btn">
+            </form>
+        </div>
+    </section>
+    <!-- Contact section end -->
+    <!-- Footer Section start -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Bloomify is the website to fulfill your Nature love and we bring you the most helpful information about your plants according to the weather.And yes we have useful thing for your plants too :)
+                </p>
+            </div>
+            <div class="box">
+                <h3>branch location</h3>
+                <a href="#">india</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#category">category</a>
+                <a href="#product">product</a>
+                <a href="#deal">deal</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedIn</a>
+            </div>
+        </div>
+        <footer>
+            <div class="center">
+                Copyright &copy; Created by Team Bloomify | All rights are reserved!
+            </div>
+        </footer>
+        <!-- <h1 class="credit"> Created by <span>Team Bloomify  </span> | all rights reserved! </h1> -->
+    </section>
+    <!-- Footer Section end -->
+    <!-- Scroll top button -->
+    <a href="#home" class="scroll-top fas fa-angle-up"></a>
+ 
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- custom js file link -->
+<script src="./script.js"></script>
+</body>
+</html>
