@@ -31,7 +31,7 @@ var swiper = new Swiper(".home-slider", {
     },
   });
 
-let countDate = new Date('June 5, 2025 00:00:00').getTime();   // mention end date of sale
+let countDate = new Date('July 5, 2025 00:00:00').getTime();   // mention end date of sale
 function countDown(){
   let now = new Date().getTime();
   gap = countDate - now;
